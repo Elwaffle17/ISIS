@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    background: url(WhatsApp\ Image\ 2024-10-27\ at\ 3.04.45\ PM.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+    color: #ffffff;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 20px;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
